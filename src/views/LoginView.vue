@@ -1,7 +1,7 @@
 <template class="flex space-x-4 items-center">
     
     <div class="flex justify-center">
-        <div class="card p-4 md:px-32 md:mt-16 border-2 rounded-md shadow-xl space-y-4" v-if="!loginScreen">
+        <div class="card p-4 px-8 md:px-32 md:mt-16 border-2 rounded-md shadow-xl space-y-4 w-full " v-if="!loginScreen">
             <h1 class="text-xl font-bold">Регистрация</h1>
             <input type="text" placeholder="ФИО" class="p-2 border-2 rounded-lg text-lg outline-none"><br/>
             <input type="text" placeholder="Номер телефона" class="p-2 border-2 rounded-lg text-lg outline-none"><br/>
